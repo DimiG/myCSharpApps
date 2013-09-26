@@ -15,7 +15,11 @@ Codes description
    **Note :** This code is not well optimized. If any tips, write me about.<br>
    ***Requires :*** .NET Framework 4.0 preinstalled, Windows XP SP3, Windows 7, Windows 8<br>
    ***Important:*** [.NET Framework 4.0][microsoft] **MUST** be istalled on your system
-   
+* `SplashScreen`: This example shows the SplashScreen during start.<br>
+   **Note :** This code is not well optimized. If any tips, write me about.<br>
+   ***Requires :*** .NET Framework 4.0 preinstalled, Windows XP SP3, Windows 7, Windows 8<br>
+   ***Important:*** [.NET Framework 4.0][microsoft] **MUST** be istalled on your system
+
 * `To be continued...`
 
 Your Questions - my Answers
