@@ -1,6 +1,15 @@
-﻿using System;
-using System.Windows.Forms;
+﻿//<summary>
+/// PowerOFF Program - This code helps poweroff your computer by WMI in C#
+///</summary>
+///<remarks>
+/// Program Name  : PowerOFF
+/// Author     : DimiG
+/// Requires   : .NET Framework 4.0 preinstalled, Windows XP SP3, Windows 7 or Windows 8
+///</remarks>
+
+using System;
 using System.Management;
+using System.Windows.Forms;
 
 namespace PowerOFF
 {
@@ -25,29 +34,38 @@ namespace PowerOFF
             // Flag 1 means we want to shut down the system. Use "2" to reboot.
             mboShutdownParams["Flags"] = mode;
             mboShutdownParams["Reserved"] = "0";
-            foreach (ManagementObject manObj in mcWin32.GetInstances())
+            try
             {
-                mboShutdown = manObj.InvokeMethod("Win32Shutdown",
-                                               mboShutdownParams, null);
+                foreach (ManagementObject manObj in mcWin32.GetInstances())
+                {
+                    mboShutdown = manObj.InvokeMethod("Win32Shutdown",
+                                                   mboShutdownParams, null);
+                }
+                Environment.Exit(0);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                throw;
             }
         }
 
         private void btnPowerOff_Click(object sender, EventArgs e)
         {
-            // Start PowerOFF your computer
+            // Begin PowerOFF your computer
             Shutdown("1");
         }
 
         private void poweroffToolStripButton_Click(object sender, EventArgs e)
         {
-            // Start PowerOFF your computer
+            // Begin PowerOFF your computer
             //Process.Start("shutdown", "-s -t 3");
             Shutdown("1");
         }
 
         private void restartToolStripButton_Click(object sender, EventArgs e)
         {
-            // Start Restart your computer
+            // Begin Restart your computer
             Shutdown("2");
         }
 
