@@ -91,7 +91,7 @@
             // toolStripBtn
             // 
             this.toolStripBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripBtn.Image = global::DiscControl.Properties.Resources.about32x32;
+            this.toolStripBtn.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtn.Image")));
             this.toolStripBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripBtn.Name = "toolStripBtn";
             this.toolStripBtn.Size = new System.Drawing.Size(36, 36);

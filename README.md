@@ -14,7 +14,7 @@ Codes description
 * `TXT2Speech`: Speak by "Speak" button click everything you wrote in text field. ;)
 * `SplashScreen`: This example shows the SplashScreen during the start.
 * `PowerOFF`: This example help to "shutdown" own computer or "restart" it.
-* `DiscControl`: This program eject and close DVD tray by `Open` and `Close` button click.
+* `DiscControl`: This program eject and close DVD tray by `Open` and `Close` button click.<br>
    "Background worker" and WMI used for ejecting as separate thread.
 
 * `All Applications`:<br>
@@ -34,7 +34,7 @@ Exist some reasons for it:
 * I don't like to make one job many times and want to save it in the cloud.
 
 * If someone have same needs he can contribute and improve this code.
-  
+
 * I want to use the `Git` for personal study and project collaboration
 
 ### When do you finish?
