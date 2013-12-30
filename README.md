@@ -11,17 +11,17 @@ Codes description
 
 ### myCSharpApps folder
 
-* `TXT2Speech`: Speak by "Speak" button click everything you wrote in text field. ;)<br>
-* `SplashScreen`: This example shows the SplashScreen during the start.<br>
-* `PowerOFF`: This example help to "shutdown" own computer or "restart" it.<br>
-* `DiscControl`: This program eject and close DVD tray by `Open` and `Close` button click.<br>
+* `TXT2Speech`: Speak by "Speak" button click everything you wrote in text field. ;)
+* `SplashScreen`: This example shows the SplashScreen during the start.
+* `PowerOFF`: This example help to "shutdown" own computer or "restart" it.
+* `DiscControl`: This program eject and close DVD tray by `Open` and `Close` button click.
    "Background worker" and WMI used for ejecting as separate thread.
 
 * `All Applications`:<br>
    **Note :** These codes is not well optimized. If any tips, write me about.<br>
    ***Requires :*** .NET Framework 4.0 preinstalled, Windows XP SP3, Windows 7, Windows 8<br>
    ***Important:*** [.NET Framework 4.0][microsoft] **MUST** be istalled on your system
-   
+
 * `To be continued...`
 
 Your Questions - my Answers
